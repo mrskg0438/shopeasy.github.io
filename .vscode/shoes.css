@@ -1,0 +1,239 @@
+*{ 
+    margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+.information{
+	position: absolute;
+	top: 04%;
+	color: rosybrown;
+}
+.shoes1{
+	position:absolute;
+	top:08%;
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+h1{
+	position: absolute;
+	top: 117%;
+	left:69%;
+	color:#efa545;
+}
+h3{
+	position: absolute;
+	top: 122%;
+	left:74%;
+}
+.checkbox
+{
+	position: absolute;
+	top:125%;
+	left: 73%;
+	color:#f00
+}
+.order{
+	position:absolute;
+	top:128%;
+	left: 74%;
+	transition: 0.6 ease;
+	
+}
+.btn{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+button:hover{
+	background-color: #fff;
+	color: #000;
+}
+.shoes2{
+	position:absolute;
+	top:139%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.main{
+	position: absolute;
+	top: 226%;
+	left:18%;
+	color:#efa545;
+}
+h3.m{
+	position: absolute;
+	top: 231%;
+	left:22%;
+}
+.checkbox1
+{
+	position: absolute;
+	top:234%;
+	left: 21%;
+	color:#f00
+}
+.order1{
+	position:absolute;
+	top:237%;
+	left:22%;
+	transition: 0.6 ease;
+	
+}
+.btn1{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.shoes3{
+    float: left;
+	top:250%;
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+}
+h1.main1{
+    position: absolute;
+	top: 338%;
+    left:65%; 
+	color:#efa545;
+}
+h3.m1{
+	position: absolute;
+	top: 343%;
+	left:70%;
+}
+.checkbox2
+{
+	position: absolute;
+	top:346%;
+	left: 69%;
+	color: #f00;
+
+}
+.order2{
+	position:absolute;
+	top:349%;
+	left:70%;
+	transition: 0.6 ease;
+}
+.btn2{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+
+
+
+.shoes4{
+	position: absolute;
+	top:360%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.main2{
+	position: absolute;
+	top: 416%;
+	left:22%;
+	color:#efa545;
+}
+h3.m2{
+	position: absolute;
+	top: 421%;
+	left:25%;
+}
+.checkbox3
+{
+	position: absolute;
+	top:424%;
+	left: 24%;
+	color:#f00
+}
+.order3{
+	position:absolute;
+	top:427%;
+	left: 25%;
+	transition: 0.6 ease;
+	
+}
+.btn3{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.home{
+	position:absolute;
+	top:435%;
+	left:38%;
+	transition: 0.6 ease;
+}
+.hom{
+    color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background:  #F3C693;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.previous{
+	position:absolute;
+	top:435%;
+	left:45%;
+	transition: 0.6 ease;
+}
+.pre{
+    color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #F3C693;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}

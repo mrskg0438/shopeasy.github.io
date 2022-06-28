@@ -1,0 +1,237 @@
+*{ 
+    margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+.information{
+	position: absolute;
+	top: 04%;
+	color: rosybrown;
+}
+.headphones1{
+	position:absolute;
+	top:08%;
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+h1{
+	position: absolute;
+	top: 62%;
+	left:69%;
+	color:#efa545;
+}
+h3{
+	position: absolute;
+	top: 67%;
+	left:76%;
+	
+}
+.checkbox
+{
+	position: absolute;
+	top:70%;
+	left: 75%;
+	color:#f00
+}
+.order{
+	position:absolute;
+	top:73%;
+	left: 76%;
+	transition: 0.6 ease;
+	
+}
+.btn{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+button:hover{
+	background-color: #fff;
+	color: #000;
+}
+.headphone2{
+	position:absolute;
+	top:85%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.main{
+	position: absolute;
+	top: 135%;
+	left:16%;
+	color:#efa545;
+}
+h3.a{
+	position: absolute;
+	top: 140%;
+	left:22%;
+}
+.checkbox1
+{
+	position: absolute;
+	top:143%;
+	left: 21%;
+	color:#f00
+}
+.order1{
+	position:absolute;
+	top:146%;
+	left:22%;
+	transition: 0.6 ease;
+	
+}
+.btn1{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.headphone3{
+    float: left;
+	top:150%;
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+}
+h1.main1{
+    position: absolute;
+	top: 195%;
+    left:65%; 
+	color:#efa545;
+}
+h3.a1{
+	position: absolute;
+	top: 200%;
+	left:70%;
+}
+.checkbox2
+{
+	position: absolute;
+	top:203%;
+	left: 69%;
+	color: #f00;
+
+}
+.order2{
+	position:absolute;
+	top:206%;
+	left:70%;
+	transition: 0.6 ease;
+}
+.btn2{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.headphone4{
+	position: absolute;
+	top:220%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.main2{
+	position: absolute;
+	top: 273%;
+	left:20%;
+	color:#efa545;
+}
+h3.a2{
+	position: absolute;
+	top: 278%;
+	left:25%;
+}
+.checkbox3
+{
+	position: absolute;
+	top:281%;
+	left: 24%;
+	color:#f00
+}
+.order3{
+	position:absolute;
+	top:284%;
+	left: 25%;
+	transition: 0.6 ease;
+	
+}
+.btn3{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.home{
+	position:absolute;
+	top:292%;
+	left:38%;
+	transition: 0.6 ease;
+}
+.hom{
+    color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background:  #F3C693;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.next{
+	position:absolute;
+	top:292%;
+	left:45%;
+	transition: 0.6 ease;
+}
+.nex{
+    color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background:  #F3C693;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}

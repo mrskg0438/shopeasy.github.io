@@ -1,0 +1,783 @@
+*{ 
+    margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+.information{
+	position: absolute;
+	top: 04%;
+	color: rosybrown;
+}
+.headphones1{
+	position:absolute;
+	top:08%;
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+h1.s{
+	position: absolute;
+	top: 67%;
+	left:69%;
+	color:#efa545;
+}
+h3{
+	position: absolute;
+	top: 71%;
+	left:76%;
+}	
+
+.checkboxs
+{
+	position: absolute;
+	top:74%;
+	left: 75%;
+	color:#f00
+}
+.orders{
+	position:absolute;
+	top:77%;
+	left: 76%;
+	transition: 0.6 ease;
+}
+.btns{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+button:hover{
+	background-color: #fff;
+	color: #000;
+}
+.headphone2{
+	position:absolute;
+	top:85%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.s1{
+	position: absolute;
+	top: 139%;
+	left:16%;
+	color:#efa545;
+}
+h3.a{
+	position: absolute;
+	top: 144%;
+	left:22%;
+}
+.checkbox1s
+{
+	position: absolute;
+	top:147%;
+	left: 21%;
+	color:#f00
+}
+.order1s{
+	position:absolute;
+	top:150%;
+	left:22%;
+	transition: 0.6 ease;
+}
+.btn1s{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.headphone3{
+    float: left;
+	top:155%;
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+}
+h1.s2{
+    position: absolute;
+	top: 196%;
+    left:65%; 
+	color:#efa545;
+}
+h3.a1{
+	position: absolute;
+	top: 200%;
+	left:70%;
+}
+.checkbox2s
+{
+	position: absolute;
+	top:203%;
+	left: 69%;
+	color: #f00;
+
+}
+.order2s{
+	position:absolute;
+	top:206%;
+	left:70%;
+	transition: 0.6 ease;
+}
+.btn2s{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.headphone4{
+	position: absolute;
+	top:220%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.s3{
+	position: absolute;
+	top: 272%;
+	left:20%;
+	color:#efa545;
+}
+h3.a2{
+	position: absolute;
+	top: 276%;
+	left:25%;
+}
+.checkbox3s
+{
+	position: absolute;
+	top:280%;
+	left: 24%;
+	color:#f00
+}
+.order3s{
+	position:absolute;
+	top:283%;
+	left: 25%;
+	transition: 0.6 ease;
+	
+}
+.btn3s{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.goggles1{
+	position:absolute;
+	top:290%;
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+h1.h{
+	position: absolute;
+	top: 325%;
+	left:69%;
+	color:#efa545;
+}
+h3.a3{
+	position: absolute;
+	top: 329%;
+	left:73%;
+}
+.checkboxh
+{
+	position: absolute;
+	top:333%;
+	left: 72%;
+	color:#f00
+}
+.orderh{
+	position:absolute;
+	top:336%;
+	left: 73%;
+	transition: 0.6 ease;
+	
+}
+.btnh{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+button:hover{
+	background-color: #fff;
+	color: #000;
+}
+.goggles2{
+	position:absolute;
+	top:345%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.h1{
+	position: absolute;
+	top: 422%;
+	left:18%;
+	color:#efa545;
+}
+h3.a4{
+	position: absolute;
+	top: 432%;
+	left:22%;
+}
+.checkbox1h
+{
+	position: absolute;
+	top:435%;
+	left: 21%;
+	color:#f00;
+}
+.order1h{
+	position:absolute;
+	top:438%;
+	left:22%;
+	transition: 0.6 ease;
+	
+}
+.btn1h{
+	color: rgb(255, 0, 0);
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.goggles3{
+    float: left;
+	top:446%;
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+}
+h1.h2{
+    position: absolute;
+	top: 540%;
+    left:67%; 
+	color:#efa545;
+}
+h3.a5{
+	position: absolute;
+	top: 544%;
+	left:70%;
+}
+.checkbox2h
+{
+	position: absolute;
+	top:548%;
+	left: 69%;
+	color: #f00;
+
+}
+.order2h{
+	position:absolute;
+	top:551%;
+	left:70%;
+	transition: 0.6 ease;
+}
+.btn2h{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.goggles4{
+	position: absolute;
+	top:556%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.h3{
+	position: absolute;
+	top: 627%;
+	left:24%;
+	color:#efa545;
+}
+h3.a6{
+	position: absolute;
+	top: 633%;
+	left:25%;
+}
+.checkbox3h
+{
+	position: absolute;
+	top:635%;
+	left: 24%;
+	color:#f00
+}
+.order3h{
+	position:absolute;
+	top:638%;
+	left: 25%;
+	transition: 0.6 ease;
+	
+}
+.btn3h{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.bluetooth1{
+	position:absolute;
+	top:647%;
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+h1.e{
+	position: absolute;
+	top: 695%;
+	left:69%;
+	color:#efa545;
+}
+h3.a7{
+	position: absolute;
+	top: 699%;
+	left:69%;
+}
+.checkboxe
+{
+	position: absolute;
+	top:703%;
+	left: 68%;
+	color:#f00
+}
+.ordere{
+	position:absolute;
+	top:706%;
+	left: 69%;
+	transition: 0.6 ease;
+	
+}
+.btne{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+button:hover{
+	background-color: #fff;
+	color: #000;
+}
+.bluetooth2{
+	position:absolute;
+	top:713%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.e1{
+	position: absolute;
+	top: 773%;
+	left:20.5%;
+	color:#efa545;
+}
+h3.a8{
+	position: absolute;
+	top: 777%;
+	left:22%;
+}
+.checkbox1e
+{
+	position: absolute;
+	top:781%;
+	left: 21%;
+	color:#f00
+}
+.order1e{
+	position:absolute;
+	top:784%;
+	left:22%;
+	transition: 0.6 ease;
+	
+}
+.btn1e{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.bluetooth3{
+    float: left;
+	top:790%;
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+}
+h1.e2{
+    position: absolute;
+	top: 890%;
+    left:68.5%; 
+	color:#efa545;
+}
+h3.a9{
+	position: absolute;
+	top: 894%;
+	left:70%;
+}
+.checkbox2e
+{
+	position: absolute;
+	top:898%;
+	left: 68%;
+	color: #f00;
+
+}
+.order2e{
+	position:absolute;
+	top:901%;
+	left:70%;
+	transition: 0.6 ease;
+}
+.btn2e{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.bluetooth4{
+	position: absolute;
+	top:910%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.e3{
+	position: absolute;
+	top: 1002%;
+	left:23%;
+	color:#efa545;
+}
+h3.a10{
+	position: absolute;
+	top: 1006%;
+	left:22.5%;
+}
+.checkbox3e
+{
+	position: absolute;
+	top:1010%;
+	left: 21%;
+	color:#f00
+}
+.order3e{
+	position:absolute;
+	top:1013%;
+	left: 22.5%;
+	transition: 0.6 ease;
+	
+}
+.btn3e{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.shoes1{
+	position:absolute;
+	top:1025%;
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+h1.t{
+	position: absolute;
+	top: 1134%;
+	left:69%;
+	color:#efa545;
+}
+h3.a11{
+	position: absolute;
+	top: 1138%;
+	left:74%;
+}
+.checkboxt
+{
+	position: absolute;
+	top:1143%;
+	left: 73%;
+	color:#f00
+}
+.ordert{
+	position:absolute;
+	top:1146%;
+	left: 74%;
+	transition: 0.6 ease;
+	
+}
+.btnt{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+button:hover{
+	background-color: #fff;
+	color: #000;
+}
+.shoes2{
+	position:absolute;
+	top:1155%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.t1{
+	position: absolute;
+	top: 1241%;
+	left:18%;
+	color:#efa545;
+}
+h3.a12{
+	position: absolute;
+	top: 1246%;
+	left:22%;
+}
+.checkbox1t
+{
+	position: absolute;
+	top:1250%;
+	left: 21%;
+	color:#f00
+}
+.order1t{
+	position:absolute;
+	top:1253%;
+	left:22%;
+	transition: 0.6 ease;
+	
+}
+.btn1t{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.shoes3{
+    float: left;
+	top:1270%;
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+}
+h1.t2{
+    position: absolute;
+	top: 1361%;
+    left:65%; 
+	color:#efa545;
+}
+h3.a13{
+	position: absolute;
+	top: 1366%;
+	left:70%;
+}
+.checkbox2t
+{
+	position: absolute;
+	top:1370%;
+	left: 69%;
+	color: #f00;
+
+}
+.order2t{
+	position:absolute;
+	top:1373%;
+	left:70%;
+	transition: 0.6 ease;
+}
+.btn2t{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+
+
+
+.shoes4{
+	position: absolute;
+	top:1383%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.t3{
+	position: absolute;
+	top: 1441%;
+	left:22%;
+	color:#efa545;
+}
+h3.a14{
+	position: absolute;
+	top: 1446%;
+	left:25%;
+}
+.checkbox3t
+{
+	position: absolute;
+	top:1450%;
+	left: 24%;
+	color:#f00
+}
+.order3t{
+	position:absolute;
+	top:1453%;
+	left: 25%;
+	transition: 0.6 ease;
+	
+}
+.btn3t{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.home{
+	position:absolute;
+	top:1459%;
+	left:45%;
+	transition: 0.6 ease;
+}
+.hom{
+    color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #F3C693;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}

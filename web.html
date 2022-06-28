@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="web.css">
+    
+    <title>Web</title>
+</head>
+<body>
+    <br>
+    <br>
+       <div class="information">
+           <p>To Get More Information About A Product Click On The Image</p>
+       </div>
+       <section class="section-1">
+           
+              <a href="b.html" > <img src="headphone.jpg" height="50%" width="50%"></a>
+       </section>
+       <h1>Boat Headphone</h1>
+       <h3>RS.1000</h3>
+       <form class=checkbox>
+           <input type="checkbox" value="Order" > Add To Cart
+       </form>
+       <div class="order">
+         <a href="order.html" > <button class="btn">Order</button></a>
+       </div>
+       <div class="headphone">
+        <a href="headphone.html" style=text-decoration:none;>headphones > 
+        </a>
+        </div>
+            <br>
+            <br>
+         <a href="g.html" ><section class="section-2">
+                <img src="goggles.jpg" height="40%" width="50%">
+            </section></a>
+            <h1 class="main">Goggles</h1>
+            <h3 class="k">RS.399</h3>
+            <form class=checkbox1>
+                <input type="checkbox" value="Order" > Add To Cart
+            </form>
+            <div class="order1">
+             <a href="order.html" >  <button class="btn1">Order</button></a>
+                </div>
+            <div class="goggles">
+            <a href="goggles.html" style=text-decoration:none;>goggles > 
+            </a>
+            </div>
+            <br>
+            <br>
+          <a href="a.html" > <section class ="section-3">
+              <img src="bluetoothspeaker.jpg" height="25%" width="50%">
+            </section></a>
+            <h1 class="main2">Bluetooth Speaker</h1>
+            <h3 class="k1">RS.899</h3>
+            <form class=checkbox2>
+                <input type="checkbox" value="Order" > Add To Cart
+            </form>
+            <div class="order2">
+             <a href="order.html" >  <button class="btn2">Order</button></a>
+            </div>
+            <div class="bluetoothspeaker">
+                <a href="bluetoothspeaker.html" style=text-decoration:none;>bluetoothspeakers > 
+                </a>
+                </div>
+            <br>
+            <br>
+   <a href="nike.html" >   <section class ="section-4">
+           <img src="shoes.jpg" height="50%" width="50%">
+       </section></a>
+       <h1 class="main3">Shoes</h1>
+       <h3 class="k2">RS.1249</h3>
+            <form class=checkbox3>
+                <input type="checkbox" value="Order" > Add To Cart
+            </form>
+            <div class="order3">
+              <a href="order.html" > <button class="btn3">Order</button></a>
+            </div>
+       <div class="shoes">
+        <a href="shoes.html" style=text-decoration:none;>shoes > 
+        </a>
+        </div>
+        <header>
+       <nav>
+           
+           <ul class="main">
+               <li class = "active" ><a href="#">Home</a></li>
+               <li><button class="loginbtn"
+                onclick="document.getElementById('login-form').style.display='block'"
+                style="width:auto;">Sign Up</button></li>
+               <li><a href="product.html">Products</a></li>
+               <li><a href="about.html">About us</a></li>
+           </ul>
+           </nav>
+           <div id ="login-form"class="login-page">
+               <div class ="form-box">
+                   <div class="button-box">
+                       <div id='btn'></div>
+                       <button type="button" onclick='login()'class="toggle-btn">Login</button>
+                       <button type="button" onclick="register()"class="toggle-btn">Register</button>
+                   </div>
+                   <form id='login'class="input-group-login">
+                    <input type="text"class="input-field"
+                    placeholder="Email Id"
+                    required>
+                    <input type="password"class="input-field"
+                       placeholder="Enter Password"
+                       required>
+                       <input type="checkbox"class="check-box"><span>Remember Password</span>
+                       <button type="submit"class="submit-btn">Login
+                       </button>
+                   </form>
+                   <form id='register' class="input-group-register">
+                       <input type="text"class="input-field"placeholder="First Name"
+                       required>
+                       <input type="text"class="input-field"placeholder="Last Name"
+                       required>
+                       <input type="email"class="input-field"placeholder="Email Id"
+                       required>
+                       <input type="password"class="input-field"placeholder="Enter Password"
+                       required>
+                       <input type="password"class="input-field"placeholder="Confirm Password"
+                       required>
+                       <input type="checkbox"class="check-box"><span>I agree to the terms and condition</span>
+                       <button type="submit"class="submit-btn">Register</button>
+                       
+                   </form>
+               </div>
+           </div>
+        
+       </header>
+    <script>
+        var x=document.getElementById('login');
+        var y=document.getElementById('register');
+        var z=document.getElementById('btn');
+        function register()
+            {
+                x.style.left='-400px';
+                y.style.left='50px';
+                z.style.left='110px';
+            }
+            function login()
+            {
+                x.style.left='50px';
+                y.style.left='450px';
+                z.style.left='0px';
+            }
+            
+        
+    </script> 
+    <script>
+        var modal = document.getElementById('login-form');
+        window.onclick = function(event)
+        {
+            if (event.target == modal)
+            {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+    $(document).on('click','ul li', function(){
+      $(this).addClass('active').siblings().removeClass('active')
+    })
+    </script>
+</body>
+</html>

@@ -1,0 +1,411 @@
+*{ 
+    margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+.information{
+	position: absolute;
+	top: 04%;
+	color: rosybrown;
+}
+.section-1{
+	position:absolute;
+	top:08%;
+	float: left;
+	width: 100%;
+	padding: 10px;
+		
+}
+h1{
+	position: absolute;
+	top: 67%;
+	left:69%;
+	color:#efa545;
+}
+h3{
+	position: absolute;
+	top:72% ;
+	left:76%;
+}
+.checkbox
+{
+	position: absolute;
+	top:75%;
+	left: 75%;
+	color:#f00
+}
+.order{
+	position:absolute;
+	top:78%;
+	left: 76%;
+	transition: 0.6 ease;
+	
+}
+.btn{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+button:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.headphone{
+	position: absolute;
+	top:82%;
+	left:2%;
+	background:#45efd3;
+	color: #f00;
+	padding: 5px 20px;
+	outline: none;
+	padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+}
+ 
+
+.section-2{
+	position:absolute;
+	top:85%;
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.main{
+	position: absolute;
+	top: 167%;
+	left:20%;
+	color:#efa545;
+}
+h3.k{
+	position: absolute;
+	top: 172%;
+	left:22%;
+}
+.checkbox1
+{
+	position: absolute;
+	top:175%;
+	left: 21%;
+	color:#f00
+}
+.order1{
+	position:absolute;
+	top:178%;
+	left:22%;
+	transition: 0.6 ease;
+	
+}
+.btn1{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+
+
+.goggles{
+	position: absolute;
+	top:195%;
+	right:2%;
+	background:#45efd3;
+	color: #f00;
+	padding: 5px 20px;
+	outline: none;
+	padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+}
+.section-3{
+    float: left;
+	top:200%;
+	position: absolute;
+	
+	width: 100%;
+	padding: 10px;
+}
+h1.main2{
+    position: absolute;
+	top: 340%;
+    left:65%; 
+	color:#efa545;
+}
+h3.k1{
+	position: absolute;
+	top: 344%;
+	left:72%;
+}
+.checkbox2
+{
+	position: absolute;
+	top:347%;
+	left: 70%;
+	color: #f00;
+
+}
+.order2{
+	position:absolute;
+	top:350%;
+	left:72%;
+	transition: 0.6 ease;
+}
+.btn2{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.bluetoothspeaker{
+	position: absolute;
+	top:365%;
+	left:2%;
+	background:#45efd3;
+	color: #f00;
+	padding: 5px 20px;
+	outline: none;
+	padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+}
+.section-4{
+	position: absolute;
+	top:370%;
+
+	left:50%;
+    width: 100%;
+    display: flex;
+	justify-content:right;
+	padding: 10px;
+}
+h1.main3{
+	position: absolute;
+	top: 430%;
+	left:20%;
+	color:#efa545;
+}
+h3.k2{
+	position: absolute;
+	top: 434%;
+	left:21%;
+}
+.checkbox3
+{
+	position: absolute;
+	top:437%;
+	left: 20%;
+	color:#f00
+}
+.order3{
+	position:absolute;
+	top:440%;
+	left: 21%;
+	transition: 0.6 ease;
+	
+}
+.btn3{
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background: #45efd3;
+	outline: none;
+    padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.6 ease;
+}
+.shoes{
+	position: absolute;
+	top:445%;
+	right:2%;
+	background:#45efd3;
+	color: #f00;
+	padding: 5px 20px;
+	outline: none;
+	padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+}
+ nav{
+	 flex:1;
+ }
+ header nav ul{
+	position: absolute;
+	top: 10px;
+	left: 78%;
+ }
+
+ header nav ul li{
+	display: inline-block;
+	
+ }
+ header nav ul li a{
+	text-decoration: none;
+	color: #f00;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6 ease;
+ }
+ nav ul li button{
+	 font-size: 20px;
+	 color:#f00;
+	 outline: none;
+	 padding: 2px 10px;
+	 border: 1px solid transparent;
+	 background: #45efd3;
+	 cursor: pointer;
+	
+ }
+ nav ul li button:hover{
+	background-color: #fff;
+	color: #000;
+ }
+
+ .main li a{
+	background: #45efd3;
+	border: none;
+	outline: none;
+	padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+ }
+ ul li.active a{
+	 background: #fff;
+	 color: #ff2424;
+ }
+ header nav ul li a:hover{
+	background-color: #fff;
+	color: #000;
+ }
+#login-form{
+	display: none;
+}
+.form-box{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 2% auto;
+	background: rgba(0, 0, 0, 0.3);
+	padding:10px;
+	overflow: hidden;
+}
+.button-box{
+	width:220px;
+	margin:35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+
+}
+
+.toggle-btn{
+	padding: 10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+
+#btn{
+	top:0;
+	left:0;
+	position: absolute;
+	width:110px;
+	height: 100%;
+	background: #F3C693 ;
+	border-radius:30px;
+	transition: 0.6s;
+
+}
+.input-group-login{
+	top:150px;
+	position:absolute ;
+	width: 280px;
+	transition: 0.6s;
+
+}
+.input-group-register{
+	top:120px;
+	position:absolute ;
+	width: 280px;
+	transition: 0.6s;
+    left: 450px;
+}
+.input-field{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	width:85%;
+	padding:10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box{
+	margin: 30px 10px 34px 0;
+}
+span{
+	color:#777;
+	font-size: 12px;
+	bottom:68px;
+	position:absolute;
+}
+#login{
+    left:50px;
+}
+#login input{
+	color:aqua;
+	font-size: 15;
+}
+#register{
+	left: 450px;
+}
+#register input{
+	color:aqua;
+	font-size: 15;
+}
